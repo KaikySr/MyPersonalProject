@@ -1,0 +1,12 @@
+main
+{
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+}
+
+.gif
+{
+    width: 200px;
+    height: fit-content;
+}
