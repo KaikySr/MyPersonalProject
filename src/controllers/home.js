@@ -14,8 +14,14 @@ module.exports = {
 
         
 
-        res.render('../view/tela-inicial');
+        res.render('../views/tela-inicial');
 
+    },
+
+    async TelaPrincipal(req, res){
+
+        
+        res.render('../views/tela-principal')
     }
 }
 

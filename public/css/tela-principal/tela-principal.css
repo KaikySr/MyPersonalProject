@@ -1,0 +1,17 @@
+body
+{
+    background-image: url("../../img/tela-de-fundo.jpg");
+    background-size: 100vw 100vh;
+    
+}
+
+main
+{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
