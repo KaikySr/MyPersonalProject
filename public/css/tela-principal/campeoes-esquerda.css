@@ -12,10 +12,8 @@
     display: flex;
     height: 15vh;
     padding: 5px;
-    gap: 12px;
-    border-bottom: solid rgb(184, 165, 120) 0.3px;
-    
-    
+    padding-left: 10px;
+    gap: 12px; 
 }
 
 .feiticos

@@ -10,6 +10,54 @@ main
     display: flex;
     width: 100vw;
     height: 100vh;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.borda-esquerda
+{
+    height: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.borda-esquerda img
+{
+    height: 25px;
+    width: 20%;
+    width: fit-content;
+}
+
+.bordinha-campeoes-esquerda
+{
+    height: 1px;
+    width: 80%;
+    background: rgb(139,140,117);
+    background: linear-gradient(to right, rgba(139,140,117,0.900) 29%, rgba(139,140,117,0.600) 48%, rgba(139,140,117,0.350) 70%, rgba(139,140,117,0.050) 87%);
+}
+
+.borda-direita
+{
+    height: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.borda-direita img
+{
+    height: 25px;
+    width: 20%;
+    width: fit-content;
+}
+
+.bordinha-campeoes-direita
+{
+    height: 1px;
+    width: 80%;
+    background: rgb(139,140,117);
+    background: linear-gradient(to left, rgba(139,140,117,0.900) 29%, rgba(139,140,117,0.600) 48%, rgba(139,140,117,0.350) 70%, rgba(139,140,117,0.050) 87%);
 }
 
 
