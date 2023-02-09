@@ -7,13 +7,15 @@
 
 }
 
-.invocador
+.invocador-aliado
 {
     display: flex;
     height: 15vh;
     padding: 5px;
-    gap: 10px;
-    /* background-color: rgb(136, 121, 74); */
+    gap: 12px;
+    border-bottom: solid rgb(184, 165, 120) 0.3px;
+    
+    
 }
 
 .feiticos
@@ -22,13 +24,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 3vw;
+    width: 2vw;
     gap: 10px
 }
 
 .feiticos img
 {
-    width: 2vw;
+    width: 1.7vw;
     height: fit-content;
 }
 
@@ -49,7 +51,7 @@
     border: solid rgb(224, 196, 128) 2px;
 }
 
-.nome-invocadorEchamp
+.nome-invocadorEchamp-aliado
 {
     display: flex;
     flex-direction: column;
